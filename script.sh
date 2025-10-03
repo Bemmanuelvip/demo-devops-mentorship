@@ -3,8 +3,8 @@
 echo "Welcome to the World of IT"
 
 echo "What is your name"
-read $name
+read -p " Enter your name:" name
 
-echo "Welcome '$name' "
-echo "Todays date is '$date' "
+echo "Hello, $name" 
+echo "Today's date is: $(date)BBC "
 
